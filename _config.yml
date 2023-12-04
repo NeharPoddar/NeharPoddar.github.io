@@ -153,6 +153,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - assests
 keep_files:
   - .git
   - .svn

@@ -87,9 +87,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Nehar Poddar"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "A mathematician and engineer with a passion for training neural networks. My journey spans across diverse interests—from crafting algorithms and playing board games to solving puzzles, reading poetry, and nurturing plants."
   location         : "Location"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

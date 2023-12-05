@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-"A mathematician and engineer with a passion for training neural networks. My journey spans across diverse interests from crafting algorithms and playing board games to solving puzzles, reading poetry, and nurturing plants."
+*A mathematician and engineer with a passion for training neural networks. My journey spans across diverse interests from crafting algorithms and playing board games to solving puzzles, reading poetry, and nurturing plants.*
 
 ## Education
 - **Ph.D. in Robotics, (soon)**

@@ -10,8 +10,7 @@ main:
     url: /portfolio/
 
   - title: "CV"
-    url: "https://NeharPoddar.github.io/files/Neher_PhD_CV.pdf"
+    url: "https://neharpoddar.github.io/files/Neher_PhD_CV.pdf"
 
   - title: "Hobbies"
     url: /hobbies/ 
-

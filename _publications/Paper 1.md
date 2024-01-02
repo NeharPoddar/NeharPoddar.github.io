@@ -5,5 +5,3 @@ excerpt:
 paperurl: 
 citation: 
 ---
-
-## Coming Soon........

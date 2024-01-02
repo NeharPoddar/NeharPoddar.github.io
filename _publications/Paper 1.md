@@ -1,8 +1,7 @@
 ---
 title: "Coming Soon.........."
 collection: 
-excerpt: 
-venue: 
+excerpt:  
 paperurl: 
 citation: 
 ---

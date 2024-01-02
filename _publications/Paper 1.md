@@ -1,5 +1,5 @@
 ---
-title: "Coming Soon.........."
+title: "Coming Soon"
 collection: 
 excerpt:  
 paperurl: 

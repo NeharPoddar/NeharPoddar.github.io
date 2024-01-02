@@ -9,7 +9,6 @@ redirect_from:
   - /hobbies.html
 ---
 
-# Hobbies
 
 As an individual with a zest for diverse interests, I find joy in a myriad of activities during my leisure time.
 

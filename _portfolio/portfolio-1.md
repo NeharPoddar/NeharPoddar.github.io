@@ -1,7 +1,15 @@
 ---
-title: "Work Expereince Number 1"
-excerpt: "Short description of portfolio item number 1"
+title: "**Perception Machine Learning Engineer** - DEKA Research and Development Corporation"
+excerpt: "Duration: January 2021 - Present"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+- Autonomous Robotics
+  - 1.1 Delivery Robot - FedEx ROXO
+  - 1.2 Security Robot
+
+- Medical Devices
+  - 2.1 Infusion Pump
+  - 2.2 Insulin Pump
+  - 2.3 Kidney Transportation Box
+

@@ -7,7 +7,6 @@ excerpt: " **Duration:** Dec 2016 - Mar 2018 <br/> **Contribution:** Conceptuali
 venue:  
 ---
 
-
 This is an example ........................... - You can structure the project this way
 
 I led the development of a custom powertrain system that enabled us to reduce the weight of our vehicle and gain a significant performance advantage. While it's often tempting to use OEM powertrain systems to save on design time and manufacturing cost, these systems are typically bulky and non-tunable. Moreover, they are designed for heavier vehicles, which can make it challenging to extract maximum performance from them.

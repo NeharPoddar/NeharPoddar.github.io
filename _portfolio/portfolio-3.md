@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning and Statistics Research Assistant - Nano-medicine Center (NEU) "
+title: "Machine Learning and Statistics Research Assistant <br/> Nano-medicine Center (NEU) "
 excerpt: "**Duration**: January 2020 - May 2020"
 collection: portfolio
 ---

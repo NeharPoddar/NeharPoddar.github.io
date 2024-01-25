@@ -1,5 +1,5 @@
 ---
-title: "Nuclear & Heat Transfer Equipment Systems Intern - 
+title: "Nuclear & Heat Transfer Equipment Systems Intern <br/>
 Larsen & Toubro Limited"
 excerpt: "**Duration**: Summer 2017"
 collection: portfolio

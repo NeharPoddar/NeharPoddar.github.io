@@ -1,5 +1,5 @@
 ---
-title: "Risk Assurance Intern - Deloitte Touché Tohmatsu Limited "
+title: "Risk Assurance Intern <br/> Deloitte Touché Tohmatsu Limited "
 excerpt: "**Duration**: Summer 2018"
 collection: portfolio
 ---

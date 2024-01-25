@@ -1,15 +1,18 @@
 # main links links
 main:
+  - title: "CV"
+    url: "https://neharpoddar.github.io/files/CV.pdf"
 
+
+  - title: "Work Experience"
+    url: /portfolio/
 
   - title: "Projects"
     url: /talks/    
   
-  - title: "Work Experience"
-    url: /portfolio/
 
-  - title: "CV"
-    url: "https://neharpoddar.github.io/files/CV.pdf"
+
+
 
   - title: "Hobbies"
     url: /hobbies/ 

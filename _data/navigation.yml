@@ -1,12 +1,11 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+
 
   - title: "Projects"
     url: /talks/    
   
-  - title: "Work Expereince"
+  - title: "Work Experience"
     url: /portfolio/
 
   - title: "CV"
@@ -14,3 +13,6 @@ main:
 
   - title: "Hobbies"
     url: /hobbies/ 
+
+  - title: "Publications"
+    url: /publications/

@@ -1,9 +1,9 @@
 ---
-title: "Design and Development of a Custom Powertrain System"
+title: "Analyzing the Relationship Between Crime Count, Weather Conditions, and Weekend Outings: Can They Serve as Valid Excuses for Cancellations?"
 collection: talks
 type: ""
 permalink: "/talks/CVTProjects"
-excerpt: " **Duration:** Dec 2016 - Mar 2018 <br/> **Contribution:** Conceptualization, Machine Design, Design Validation, Manufacturing Processes, Testing and Finite Element Analysis <br/> " 
+excerpt: " This project employs statistical analysis to explore the correlation between crime count, weather conditions, and weekends, aiming to determine if these factors can be statistically significant reasons for canceling outdoor plans with friends." 
 venue:  
 ---
 

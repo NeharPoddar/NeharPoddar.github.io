@@ -7,3 +7,4 @@ excerpt: " This study tackles the unsolved Capset Problem through an unconventio
 venue:  
 ---
 
+ url: "https://neharpoddar.github.io/files/NeharPoddarCurriculumVitae .pdf"

@@ -1,5 +1,5 @@
 ---
-title: "**Perception Machine Learning Engineer** <br/>** Medical Devices** <br/> DEKA Research and Development Corporation"
+title: "**Perception Machine Learning Engineer** <br/> **Medical Devices** <br/> DEKA Research and Development Corporation"
 excerpt: "**Duration**: January 2021 - Present"
 collection: portfolio
 ---

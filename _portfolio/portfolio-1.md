@@ -16,5 +16,4 @@ Key achievements included developing a sensor fusion model utilizing lidar, rada
 
 The role extensively involved executing ROS and C++ algorithms (RANSAC, PnP, ICP) for automation within the project, demonstrating adaptability to technological constraints and innovation in computer vision and robotics methodologies.
 
-<img src="https://neharpoddar.github.io/images/sentry.png" alt="Alt Text" width="500" height="500" align="left">
-<img src="https://github.com/NeharPoddar/NeharPoddar.github.io/images/sentry.png" alt="Alt Text" width="500" height="500" align="right">
+

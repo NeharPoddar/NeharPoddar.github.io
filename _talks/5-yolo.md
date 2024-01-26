@@ -7,3 +7,4 @@ excerpt: " This project focuses on recreating the YOLO v3 algorithm from scratch
 venue:  
 ---
 
+The project can be found here [Project](https://neharpoddar.github.io/files/YOLO Final Report.pdf)

@@ -7,3 +7,4 @@ excerpt: " This paper explores the intricacies of tetrahedral mesh generation fr
 venue:  
 ---
 
+The project can be found here [Project](https://neharpoddar.github.io/files/Mini Project 1 - Sudoku.pdf)

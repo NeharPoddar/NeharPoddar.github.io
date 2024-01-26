@@ -7,3 +7,4 @@ excerpt: "This study explores the application of Sinkhorn balancing, a probabili
 venue:  
 ---
 
+The project can be found here [Project](https://neharpoddar.github.io/files/Tetrahedral Meshing.pdf)

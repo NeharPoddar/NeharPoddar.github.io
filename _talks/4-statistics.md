@@ -7,3 +7,4 @@ excerpt: " This project employs statistical analysis to explore the correlation 
 venue:  
 ---
 
+The project can be found here [Project](https://neharpoddar.github.io/files/Statistics Project.pdf)

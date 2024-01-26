@@ -7,4 +7,4 @@ excerpt: " This project focuses on leveraging machine learning techniques and th
 venue:  
 ---
 
-The project can be found here [Probability](https://neharpoddar.github.io/files/math modeling project.pdf)
+The project can be found here [RUL](https://neharpoddar.github.io/files/math modeling project.pdf)

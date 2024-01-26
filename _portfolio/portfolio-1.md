@@ -16,4 +16,4 @@ Key achievements included developing a sensor fusion model utilizing lidar, rada
 
 The role extensively involved executing ROS and C++ algorithms (RANSAC, PnP, ICP) for automation within the project, demonstrating adaptability to technological constraints and innovation in computer vision and robotics methodologies.
 
-
+More information can be found here [DEKA](https://neharpoddar.github.io/files/Nehar Poddar_DEKA.pdf)

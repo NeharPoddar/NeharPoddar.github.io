@@ -16,3 +16,5 @@ My involvement included designing a personalized differential equation model to 
 I played a pivotal role in developing a segmentation model aimed at monitoring changes in kidney size and color, offering insights into kidney health for both pig and human kidneys. This model provides valuable information for doctors to better understand and assess the condition of the kidneys.
 
 Throughout these experiences, I collaborated closely with interdisciplinary teams, applying cutting-edge technologies and methodologies to enhance the functionality and reliability of these critical medical devices.
+
+More information can be found here [DEKA](https://neharpoddar.github.io/files/Nehar Poddar_DEKA.pdf)

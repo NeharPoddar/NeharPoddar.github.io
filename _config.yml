@@ -8,7 +8,7 @@
 plugins:
   - jekyll-remote-theme
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 
 
@@ -89,8 +89,8 @@ analytics:
 author:
   name             : "Nehar Poddar"
   avatar           : "NeharBioPic.png"
-  bio              : "PhD Researcher, IHMC · ML Engineer, DEKA R&D"
-  location         : "Manchester, NH"
+  bio              : "PhD Researcher @ IHMC · Humanoid Robotics & RL"
+  location         : "Pensacola, FL"
   employer         : "IHMC / DEKA Research and Development"
   pubmed           : 
   googlescholar    : 

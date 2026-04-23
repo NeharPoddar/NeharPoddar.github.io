@@ -103,6 +103,14 @@ Some of the platforms I have worked with at IHMC and DEKA Research.
   </div>
 </div>
 
+## Music
+
+I play alto saxophone with [PBC Band](https://www.pbcband.org/), a community band based in Pensacola. Playing live with other musicians is one of the most enjoyable parts of my week.
+
+## Outside the Lab
+
+Chess, running, hiking, photography, board games, puzzles. Happy to talk about any of these.
+
 ## Selected Projects
 
 [**RUL-Aircraft**](https://github.com/NeharPoddar/RUL-aircraft) predicts the remaining useful life of aircraft engines using deep learning on the NASA C-MAPSS dataset.
@@ -116,6 +124,5 @@ Some of the platforms I have worked with at IHMC and DEKA Research.
 <div class="profile-links">
   <a href="/publications/">Publications</a>
   <a href="https://neharpoddar.github.io/files/NeharPoddarCurriculumVitae .pdf">CV</a>
-  <a href="/hobbies/">Hobbies</a>
   <a href="mailto:poddar.nehar@gmail.com">Contact</a>
 </div>

@@ -8,125 +8,79 @@ redirect_from:
   - /about.html
 ---
 
-<div class="hero-card">
-  <div class="hero-greeting">👋 Hi, I'm Nehar!</div>
-  <p class="hero-tagline">Robotics PhD researcher teaching humanoid robots to recover from falls — living and working in sunny <strong>Pensacola, FL</strong> 🌊</p>
-  <div class="hero-tags">
-    <span class="hero-tag">📍 Pensacola, FL</span>
-    <span class="hero-tag">🤖 Humanoid Robotics</span>
-    <span class="hero-tag">🧠 Reinforcement Learning</span>
-    <span class="hero-tag">🎓 PhD @ IHMC / UWF</span>
-    <span class="hero-tag">🎵 Musician</span>
-    <span class="hero-tag">🧮 Mathematician</span>
+<p class="profile-intro">PhD researcher at <a href="https://robots.ihmc.us/">IHMC</a> in Pensacola, FL, working at the intersection of classical control theory and deep reinforcement learning for humanoid robot locomotion and recovery. My broader interests span mathematical optimization, physics-informed learning, and the principled design of autonomous systems.</p>
+
+## Education
+
+| | Institution | |
+|--|-------------|--|
+| **Ph.D., Robotics** | IHMC / University of West Florida · Pensacola, FL | in progress |
+| **M.Sc., Applied Mathematics** | Northeastern University · Boston, MA | 2020 |
+| **B.Tech., Mechanical Engineering** | NMIMS · Mumbai, India | 2018 |
+
+## Research
+
+I am a PhD researcher at the [Institute for Human and Machine Cognition (IHMC)](https://robots.ihmc.us/) in Pensacola, FL — one of the world's leading humanoid robotics laboratories.
+
+My doctoral work focuses on **physics-embedded reinforcement learning for humanoid balance and recovery**. Decades of classical control research produced compact, interpretable representations of balance — capture point, centroidal momentum, wrench-feasibility regions — that modern RL has largely discarded. I embed these physical invariants directly into the training process as privileged critic inputs and reward structure, enabling humanoid robots to discover emergent multi-contact recovery behaviors without any prescribed contact schedule.
+
+The target is a single policy governing the complete loco-manipulation recovery loop: stable walking → external disturbance → fall → multi-contact stand-up → task resumption.
+
+<div class="research-metrics">
+  <div class="metric">
+    <div class="metric-value">93.4%</div>
+    <div class="metric-label">fall recovery rate across all test configurations</div>
+  </div>
+  <div class="metric">
+    <div class="metric-value">emergent</div>
+    <div class="metric-label">multi-contact strategies — elbows, knees, forearms</div>
+  </div>
+  <div class="metric">
+    <div class="metric-value">one</div>
+    <div class="metric-label">unified policy for the full recovery loop</div>
   </div>
 </div>
 
-A mathematician and engineer with a passion for training neural networks. My journey spans robotics research, autonomous systems, applied mathematics, and mechanical engineering — with a few detours into puzzles, poetry, and painting.
+## Experience
 
----
-
-## 🎓 Education
-
-| Degree | Institution | Location |
-|--------|------------|----------|
-| **Ph.D. Robotics** *(in progress)* | [IHMC](https://robots.ihmc.us/) / University of West Florida | Pensacola, FL |
-| **MSc Applied Mathematics** | Northeastern University | Boston, MA |
-| **BTech Mechanical Engineering** | NMIMS | Mumbai, India |
-
-My academic background spans mathematical modeling, optimization, machine learning, deep learning, and mechanical engineering.
-
----
-
-## 🔬 Research
-
-I am a PhD researcher at the [**Institute for Human and Machine Cognition (IHMC)**](https://robots.ihmc.us/), one of the leading humanoid robotics labs in the world — based right here in **Pensacola, FL**.
-
-My doctoral research focuses on **physics-embedded reinforcement learning for humanoid robot balance and recovery**. Classical control theory gave us compact, interpretable representations of balance — capture point, centroidal momentum, wrench-feasibility regions — that RL has largely abandoned. I embed these physical invariants directly into the RL training process as privileged critic inputs and reward shaping terms, enabling humanoid robots to discover emergent multi-contact recovery behaviors without prescribed contact schedules.
-
-My work targets the full loco-manipulation recovery loop: walking → disturbance → fall → multi-contact stand-up → task resumption, in a single learned policy.
-
-<div class="research-highlight">
-  <div class="stat-card">
-    <div class="stat-number">93.4%</div>
-    <div class="stat-label">Fall Recovery Rate</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">1</div>
-    <div class="stat-label">Unified Policy</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">∞</div>
-    <div class="stat-label">Contact Strategies</div>
-  </div>
-</div>
-
----
-
-## 💼 Experience
-
-### 🤖 PhD Researcher — IHMC / University of West Florida
-*Pensacola, FL*
+**PhD Researcher — IHMC / University of West Florida** · Pensacola, FL
 - Physics-embedded RL for humanoid robot balance and recovery
-- Asymmetric actor-critic with privileged balance signals (capture point, CoM, centroidal momentum)
-- **93.4% fall recovery rate** across all configurations; emergent multi-contact strategies (elbows, knees, forearms)
-- [Lab website →](https://robots.ihmc.us/)
+- Asymmetric actor-critic architecture with privileged balance signals: capture point, CoM, centroidal momentum
+- 93.4% fall recovery rate; emergent multi-contact strategies across elbows, knees, and forearms
+- [Lab website](https://robots.ihmc.us/)
 
-### ⚙️ Machine Learning Engineer — DEKA Research & Development Corp.
-*Manchester, NH*
-- **Autonomous Delivery Robot:** Deep learning sensor fusion for global occupancy grids (lidar, radar, cameras)
-- **Insulin Pump Enhancement:** Reinforcement Learning and Transformer methods for adaptive insulin delivery
-- **Infusion Pump Analysis:** Vision-based liquid flow rate estimation
+**Research Engineer — DEKA Research & Development Corp.** · Manchester, NH
+- Autonomous Delivery Robot: deep learning sensor fusion for global occupancy grids (lidar, radar, cameras)
+- Insulin Pump Enhancement: reinforcement learning and transformer methods for adaptive insulin delivery
+- Infusion Pump Analysis: vision-based liquid flow rate estimation
 
-### 🏥 ML Research Assistant — Nano-medicine Center, Northeastern University
-- Automated MRI classification for Alzheimer's disease (**83% accuracy**)
-- Segmentation models for extracting gray matter characteristics from MR images
+**ML Research Assistant — Nano-medicine Center, Northeastern University** · Boston, MA
+- Automated MRI classification for Alzheimer's disease (83% accuracy)
+- Segmentation models for gray matter characterization from structural MR images
 
----
+## Technical Skills
 
-## 🛠️ Skills
+**Programming** &nbsp;·&nbsp; Python &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Java &nbsp;·&nbsp; MATLAB
 
-<div class="skills-grid">
-  <div class="skill-group">
-    <h4>💻 Programming</h4>
-    <span class="skill-tag">Python</span>
-    <span class="skill-tag">C++</span>
-    <span class="skill-tag">MATLAB</span>
-  </div>
-  <div class="skill-group">
-    <h4>🧠 ML / Deep Learning</h4>
-    <span class="skill-tag">PyTorch</span>
-    <span class="skill-tag">CUDA</span>
-    <span class="skill-tag">Scikit-Learn</span>
-  </div>
-  <div class="skill-group">
-    <h4>🤖 Robotics</h4>
-    <span class="skill-tag">ROS</span>
-    <span class="skill-tag">MuJoCo</span>
-    <span class="skill-tag">Isaac Sim</span>
-    <span class="skill-tag">Sim-to-Real</span>
-  </div>
-  <div class="skill-group">
-    <h4>🔧 Tools</h4>
-    <span class="skill-tag">NumPy</span>
-    <span class="skill-tag">Pandas</span>
-    <span class="skill-tag">OpenCV</span>
-    <span class="skill-tag">Linux</span>
-  </div>
-</div>
+**Simulation & Robotics** &nbsp;·&nbsp; Isaac Sim &nbsp;·&nbsp; IsaacLab &nbsp;·&nbsp; MuJoCo &nbsp;·&nbsp; ROS &nbsp;·&nbsp; sim-to-real transfer
+
+**Control Theory** &nbsp;·&nbsp; classical controls &nbsp;·&nbsp; capture-point dynamics &nbsp;·&nbsp; centroidal momentum &nbsp;·&nbsp; wrench-feasibility analysis
+
+**Machine Learning** &nbsp;·&nbsp; PyTorch &nbsp;·&nbsp; CUDA &nbsp;·&nbsp; reinforcement learning &nbsp;·&nbsp; transformer architectures &nbsp;·&nbsp; Scikit-Learn
+
+**Tools** &nbsp;·&nbsp; NumPy &nbsp;·&nbsp; Pandas &nbsp;·&nbsp; OpenCV &nbsp;·&nbsp; Linux
+
+## Selected Projects
+
+[**RUL-Aircraft**](https://github.com/NeharPoddar/RUL-aircraft) — Predicting remaining useful life of aircraft engines with deep learning on the NASA C-MAPSS dataset.
+
+[**Patterns in Capset**](https://github.com/NeharPoddar/patterns-in-capset) — Combinatorics research exploring attribute distributions in the cap set problem.
 
 ---
 
-## 🚀 Projects
-
-- [**Armatrix–IsaacLab**](https://github.com/NeharPoddar/Armatrix--IsaacLab) — GPU-accelerated robot learning framework built on NVIDIA Isaac Sim *(PhD research codebase)*
-- [**RUL-Aircraft**](https://github.com/NeharPoddar/RUL-aircraft) — AI techniques to predict remaining useful life of aircraft engines (C-MAPSS dataset)
-- [**Patterns in Capset**](https://github.com/NeharPoddar/patterns-in-capset) — Exploring attribute distributions for insights into the Capset combinatorics problem
-
----
-
-<div class="contact-row">
-  <a href="/publications/" class="contact-btn">📄 Publications</a>
-  <a href="https://neharpoddar.github.io/files/NeharPoddarCurriculumVitae .pdf" class="contact-btn">📋 View CV</a>
-  <a href="/hobbies/" class="contact-btn">🎸 Hobbies</a>
-  <a href="mailto:poddar.nehar@gmail.com" class="contact-btn">✉️ Get in Touch</a>
+<div class="profile-links">
+  <a href="/publications/">Publications</a>
+  <a href="https://neharpoddar.github.io/files/NeharPoddarCurriculumVitae .pdf">CV</a>
+  <a href="/hobbies/">Hobbies</a>
+  <a href="mailto:poddar.nehar@gmail.com">Contact</a>
 </div>

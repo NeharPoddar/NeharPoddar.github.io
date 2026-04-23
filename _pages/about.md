@@ -14,17 +14,17 @@ redirect_from:
 
 | | Institution | |
 |--|-------------|--|
-| **Ph.D., Robotics** | IHMC / University of West Florida · Pensacola, FL | in progress |
-| **M.Sc., Applied Mathematics** | Northeastern University · Boston, MA | 2020 |
-| **B.Tech., Mechanical Engineering** | NMIMS · Mumbai, India | 2018 |
+| **Ph.D., Robotics** | IHMC / University of West Florida, Pensacola FL | in progress |
+| **M.Sc., Applied Mathematics** | Northeastern University, Boston MA | 2020 |
+| **B.Tech., Mechanical Engineering** | NMIMS, Mumbai India | 2018 |
 
 ## Research
 
-I am a PhD researcher at the [Institute for Human and Machine Cognition (IHMC)](https://robots.ihmc.us/) in Pensacola, FL — one of the world's leading humanoid robotics laboratories.
+I am a PhD researcher at the [Institute for Human and Machine Cognition (IHMC)](https://robots.ihmc.us/) in Pensacola, FL, one of the world's leading humanoid robotics laboratories.
 
-My doctoral work focuses on **physics-embedded reinforcement learning for humanoid balance and recovery**. Decades of classical control research produced compact, interpretable representations of balance — capture point, centroidal momentum, wrench-feasibility regions — that modern RL has largely discarded. I embed these physical invariants directly into the training process as privileged critic inputs and reward structure, enabling humanoid robots to discover emergent multi-contact recovery behaviors without any prescribed contact schedule.
+My doctoral work focuses on **physics-embedded reinforcement learning for humanoid balance and recovery**. Decades of classical control research produced compact, interpretable representations of balance such as capture point, centroidal momentum, and wrench-feasibility regions, that modern RL has largely discarded. I embed these physical invariants directly into the training process as privileged critic inputs and reward structure, enabling humanoid robots to discover emergent multi-contact recovery behaviors without any prescribed contact schedule.
 
-The target is a single policy governing the complete loco-manipulation recovery loop: stable walking → external disturbance → fall → multi-contact stand-up → task resumption.
+The target is a single policy governing the complete loco-manipulation recovery loop: stable walking, external disturbance, fall, multi-contact stand-up, and task resumption.
 
 <div class="research-metrics">
   <div class="metric">
@@ -33,7 +33,7 @@ The target is a single policy governing the complete loco-manipulation recovery 
   </div>
   <div class="metric">
     <div class="metric-value">emergent</div>
-    <div class="metric-label">multi-contact strategies — elbows, knees, forearms</div>
+    <div class="metric-label">multi-contact strategies using elbows, knees, and forearms</div>
   </div>
   <div class="metric">
     <div class="metric-value">one</div>
@@ -43,38 +43,38 @@ The target is a single policy governing the complete loco-manipulation recovery 
 
 ## Experience
 
-**PhD Researcher — IHMC / University of West Florida** · Pensacola, FL
+**PhD Researcher, IHMC / University of West Florida** (Pensacola, FL)
 - Physics-embedded RL for humanoid robot balance and recovery
 - Asymmetric actor-critic architecture with privileged balance signals: capture point, CoM, centroidal momentum
-- 93.4% fall recovery rate; emergent multi-contact strategies across elbows, knees, and forearms
+- 93.4% fall recovery rate with emergent multi-contact strategies across elbows, knees, and forearms
 - [Lab website](https://robots.ihmc.us/)
 
-**Research Engineer — DEKA Research & Development Corp.** · Manchester, NH
-- Autonomous Delivery Robot: deep learning sensor fusion for global occupancy grids (lidar, radar, cameras)
+**Research Engineer, DEKA Research & Development Corp.** (Manchester, NH)
+- Autonomous Delivery Robot: deep learning sensor fusion for global occupancy grids using lidar, radar, and cameras
 - Insulin Pump Enhancement: reinforcement learning and transformer methods for adaptive insulin delivery
 - Infusion Pump Analysis: vision-based liquid flow rate estimation
 
-**ML Research Assistant — Nano-medicine Center, Northeastern University** · Boston, MA
-- Automated MRI classification for Alzheimer's disease (83% accuracy)
+**ML Research Assistant, Nano-medicine Center, Northeastern University** (Boston, MA)
+- Automated MRI classification for Alzheimer's disease with 83% accuracy
 - Segmentation models for gray matter characterization from structural MR images
 
 ## Technical Skills
 
-**Programming** &nbsp;·&nbsp; Python &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Java &nbsp;·&nbsp; MATLAB
-
-**Simulation & Robotics** &nbsp;·&nbsp; Isaac Sim &nbsp;·&nbsp; IsaacLab &nbsp;·&nbsp; MuJoCo &nbsp;·&nbsp; ROS &nbsp;·&nbsp; sim-to-real transfer
-
-**Control Theory** &nbsp;·&nbsp; classical controls &nbsp;·&nbsp; capture-point dynamics &nbsp;·&nbsp; centroidal momentum &nbsp;·&nbsp; wrench-feasibility analysis
-
-**Machine Learning** &nbsp;·&nbsp; PyTorch &nbsp;·&nbsp; CUDA &nbsp;·&nbsp; reinforcement learning &nbsp;·&nbsp; transformer architectures &nbsp;·&nbsp; Scikit-Learn
-
-**Tools** &nbsp;·&nbsp; NumPy &nbsp;·&nbsp; Pandas &nbsp;·&nbsp; OpenCV &nbsp;·&nbsp; Linux
+| | |
+|--|--|
+| **Programming** | Python, C++, Java, MATLAB |
+| **Simulation** | Isaac Sim, IsaacLab, MuJoCo, ROS, sim-to-real transfer |
+| **Control Theory** | classical controls, capture-point dynamics, centroidal momentum, wrench-feasibility analysis |
+| **Machine Learning** | PyTorch, CUDA, reinforcement learning, transformer architectures, Scikit-Learn |
+| **Tools** | NumPy, Pandas, OpenCV, Linux |
 
 ## Selected Projects
 
-[**RUL-Aircraft**](https://github.com/NeharPoddar/RUL-aircraft) — Predicting remaining useful life of aircraft engines with deep learning on the NASA C-MAPSS dataset.
+[**RUL-Aircraft**](https://github.com/NeharPoddar/RUL-aircraft) predicts the remaining useful life of aircraft engines using deep learning on the NASA C-MAPSS dataset.
 
-[**Patterns in Capset**](https://github.com/NeharPoddar/patterns-in-capset) — Combinatorics research exploring attribute distributions in the cap set problem.
+[**YOLO v3 Object Detection**](https://neharpoddar.github.io/files/YOLO Final Report.pdf) reimplements the YOLO v3 algorithm from scratch in PyTorch, with custom data augmentation and evaluation on the MS COCO dataset.
+
+[**Patterns in Capset**](https://github.com/NeharPoddar/patterns-in-capset) is a combinatorics research project exploring attribute distributions in the cap set problem.
 
 ---
 

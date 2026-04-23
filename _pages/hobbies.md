@@ -14,21 +14,21 @@ Some of the platforms I have had the chance to work with.
 
 <div class="robot-grid">
   <div class="robot-card">
-    <img src="/images/alex-ihmc.webp" alt="Alex, IHMC Humanoid Robot">
+    <img src="/images/alex1-ihmc.jpeg" alt="Alex, IHMC Humanoid Robot">
     <div class="robot-info">
       <div class="robot-name">Alex</div>
       <div class="robot-detail">IHMC Humanoid Robot, Pensacola FL</div>
     </div>
   </div>
   <div class="robot-card">
-    <img src="/images/h1-2-clean.png" alt="Unitree H1-2">
+    <img src="/images/h1-2-full.webp" alt="Unitree H1-2">
     <div class="robot-info">
       <div class="robot-name">Unitree H1-2</div>
       <div class="robot-detail">Humanoid Robot</div>
     </div>
   </div>
   <div class="robot-card">
-    <img src="/images/go2.png" alt="Unitree Go2">
+    <img src="/images/go2-profile.jpeg" alt="Unitree Go2">
     <div class="robot-info">
       <div class="robot-name">Unitree Go2</div>
       <div class="robot-detail">Quadruped Robot</div>

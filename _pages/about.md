@@ -14,9 +14,9 @@ redirect_from:
 
 | | Institution | |
 |--|-------------|--|
-| **Ph.D., Robotics** | IHMC / University of West Florida, Pensacola FL | in progress |
-| **M.Sc., Applied Mathematics** | Northeastern University, Boston MA | 2020 |
-| **B.Tech., Mechanical Engineering** | NMIMS, Mumbai India | 2018 |
+| **Ph.D., Robotics** | IHMC / University of West Florida, Pensacola FL | 2024 – present |
+| **M.Sc., Applied Mathematics** | Northeastern University, Boston MA | 2019 – 2021 |
+| **B.Tech., Mechanical Engineering** | NMIMS, Mumbai India | 2015 – 2019 |
 
 ## Research
 
@@ -67,6 +67,41 @@ The target is a single policy governing the complete loco-manipulation recovery 
 | **Control Theory** | classical controls, capture-point dynamics, centroidal momentum, wrench-feasibility analysis |
 | **Machine Learning** | PyTorch, CUDA, reinforcement learning, transformer architectures, Scikit-Learn |
 | **Tools** | NumPy, Pandas, OpenCV, Linux |
+
+## Robots
+
+Some of the platforms I have worked with at IHMC and DEKA Research.
+
+<div class="robot-grid">
+  <div class="robot-card">
+    <img src="/images/alex1-ihmc.jpeg" alt="Alex, IHMC Humanoid Robot">
+    <div class="robot-info">
+      <div class="robot-name">Alex</div>
+      <div class="robot-detail">IHMC Humanoid Robot, Pensacola FL</div>
+    </div>
+  </div>
+  <div class="robot-card">
+    <img src="/images/h1-2-full.webp" alt="Unitree H1-2">
+    <div class="robot-info">
+      <div class="robot-name">Unitree H1-2</div>
+      <div class="robot-detail">Humanoid Robot</div>
+    </div>
+  </div>
+  <div class="robot-card">
+    <img src="/images/go2-profile.jpeg" alt="Unitree Go2">
+    <div class="robot-info">
+      <div class="robot-name">Unitree Go2</div>
+      <div class="robot-detail">Quadruped Robot</div>
+    </div>
+  </div>
+  <div class="robot-card">
+    <img src="/images/roxo.jpeg" alt="FedEx ROXO">
+    <div class="robot-info">
+      <div class="robot-name">FedEx ROXO</div>
+      <div class="robot-detail">Autonomous Delivery Robot, DEKA Research</div>
+    </div>
+  </div>
+</div>
 
 ## Selected Projects
 

@@ -7,39 +7,47 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**A mathematician and engineer with a passion for training neural networks. My journey spans across diverse interests from crafting algorithms and playing board games to solving puzzles, reading poetry, and nurturing plants.**
+
+**A mathematician and engineer with a passion for training neural networks. My journey spans robotics research, autonomous systems, applied mathematics, and mechanical engineering — with a few detours into puzzles, poetry, and painting.**
 
 ## Education
-- **Ph.D. in Robotics, (soon)**
+- **Ph.D. in Robotics, [IHMC](https://robots.ihmc.us/) / University of West Florida** (in progress)
 - MSc in Applied Mathematics, Northeastern University (Boston, USA)
 - BTech in Mechanical Engineering, NMIMS (Mumbai, India)
 
-My academic background covers a range of subjects, including mathematical modeling, optimization, machine learning, deep learning, and mechanical engineering principles.
+My academic background spans mathematical modeling, optimization, machine learning, deep learning, and mechanical engineering.
 
-## Research Interests
-My focus revolves around enhancing autonomous mobile robots' capabilities through advancements in 3D environment modeling and navigation of unknown terrains. I leverage deep neural networks, graphical models, and optimization techniques to improve sensing and decision-making in these systems.
+## Research
+I am a PhD researcher at the [Institute for Human and Machine Cognition (IHMC)](https://robots.ihmc.us/), one of the leading humanoid robotics labs in the world. My doctoral research focuses on **physics-embedded reinforcement learning for humanoid robot balance and recovery**. The core idea: classical control theory produced compact, interpretable representations of balance — capture point, centroidal momentum, wrench-feasibility regions — that RL has largely abandoned. I embed these physical invariants directly into the RL training process as privileged critic inputs and reward shaping terms, enabling humanoid robots to discover emergent multi-contact recovery behaviors without prescribed contact schedules.
+
+My work targets the full loco-manipulation recovery loop: walking, disturbance, fall, multi-contact stand-up, and task resumption in a single learned policy.
 
 ## Experience
-### Machine Learning Engineer - DEKA Research and Development Corp.
-- Autonomous Delivery Robot: Developing deep learning sensor fusion models for comprehensive global occupancy grids, integrating data from lidar, radar, and cameras.
-- Insulin Pump Enhancement: Employing Reinforcement Learning and Transformer techniques to optimize insulin delivery without relying solely on user-input meal information.
-- Infusion Pump Analysis: Utilizing vision detection algorithms to calculate liquid flow rates accurately.
 
-### Machine Learning and Statistics Research Assistant - Nano-medicine Center (NEU)
-- Implemented automated classification models on MRI data, achieving an 83% correct classification rate for Alzheimer's disease.
-- Engineered segmentation models for MR images, extracting crucial gray matter characteristics.
+### PhD Researcher — IHMC / University of West Florida
+- Physics-embedded RL for humanoid robot balance and recovery
+- Asymmetric actor-critic with privileged balance signals (capture point, CoM, centroidal momentum)
+- 93.4% fall recovery rate across all configurations; emergent multi-contact strategies (elbows, knees, forearms)
+- [Lab website](https://robots.ihmc.us/)
 
-### Teaching Assistant and Grader - Northeastern University
-- Mentored students in mathematical methods, modeling, and calculus courses.
+### Machine Learning Engineer — DEKA Research and Development Corp.
+- **Autonomous Delivery Robot:** Deep learning sensor fusion for global occupancy grids (lidar, radar, cameras)
+- **Insulin Pump Enhancement:** Reinforcement Learning and Transformer methods for adaptive insulin delivery
+- **Infusion Pump Analysis:** Vision-based liquid flow rate estimation
+
+### Machine Learning Research Assistant — Nano-medicine Center, Northeastern University
+- Automated MRI classification for Alzheimer's disease (83% accuracy)
+- Segmentation models for extracting gray matter characteristics from MR images
 
 ## Skills
-- **Programming Languages:** Python, C++, MATLAB
-- **Software/Tools:** PyTorch, CUDA, Pandas, NumPy, Scikit-Learn, OpenCV, ROS, Linux
+- **Programming:** Python, C++, MATLAB
+- **ML/DL:** PyTorch, CUDA, Scikit-Learn
+- **Robotics:** ROS, MuJoCo, reinforcement learning, sim-to-real transfer
+- **Tools:** Pandas, NumPy, OpenCV, Linux
 
 ## Projects
-I've undertaken various projects exploring attributes distributions, mathematical modeling of idea spread, statistical analysis of crime and weather correlations, probabilistic algorithms, and data-driven predictions. Some highlights include capset problem distribution exploration, idea spread dynamics, crime-weather associations, Sudoku solving algorithms, drug failure prediction, and personalized book recommendations.
+- [Armatrix–IsaacLab](https://github.com/NeharPoddar/Armatrix--IsaacLab) — GPU-accelerated robot learning framework built on NVIDIA Isaac Sim (PhD research codebase)
+- [RUL-Aircraft](https://github.com/NeharPoddar/RUL-aircraft) — AI techniques to predict remaining useful life of aircraft engines (C-MAPSS dataset)
+- [Patterns in Capset](https://github.com/NeharPoddar/patterns-in-capset) — Exploring attribute distributions for insights into the Capset combinatorics problem
 
-I'm driven by curiosity and a fervor for leveraging mathematical and engineering concepts to solve real-world challenges. Let's connect and explore the possibilities!
-
-[Explore My Projects](#projects) | [Get in Touch](mailto:poddar.nehar@gmail.com)
-
+[View Publications](/publications/) | [View CV](/cv/) | [Get in Touch](mailto:poddar.nehar@gmail.com)

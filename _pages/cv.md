@@ -11,49 +11,51 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* BTech in Mechanical Engineering, NMIMS, Mumbai, India
+* MSc in Applied Mathematics, Northeastern University, Boston, USA
+* Ph.D. in Robotics, [IHMC](https://robots.ihmc.us/) / University of West Florida (in progress)
+  * Dissertation: Physics-Embedded Reinforcement Learning for Multi-Contact Balance in Humanoid Robots
 
-Work experience
+Work Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **PhD Researcher — IHMC / University of West Florida** (Pensacola, FL)
+  * Physics-embedded reinforcement learning for humanoid robot balance and recovery
+  * Asymmetric actor-critic with privileged balance signals (capture point, CoM, centroidal momentum)
+  * 93.4% fall recovery rate across all configurations; emergent multi-contact strategies
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* **Machine Learning Engineer — DEKA Research and Development Corp.** (Manchester, NH)
+  * Autonomous Delivery Robot: deep learning sensor fusion for global occupancy grids (lidar, radar, cameras)
+  * Insulin Pump Enhancement: Reinforcement Learning and Transformer methods for adaptive insulin delivery
+  * Infusion Pump Analysis: vision-based liquid flow rate estimation
+
+* **Machine Learning and Statistics Research Assistant — Nano-medicine Center, Northeastern University**
+  * Automated MRI classification for Alzheimer's disease (83% accuracy)
+  * Segmentation models for extracting gray matter characteristics from MR images
+
+* **Teaching Assistant and Grader — Northeastern University**
+  * Mathematical methods, mathematical modeling, and calculus
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming:** Python, C++, MATLAB
+* **ML/DL:** PyTorch, CUDA, Scikit-Learn
+* **Robotics:** ROS, MuJoCo, reinforcement learning, sim-to-real transfer
+* **Tools:** Pandas, NumPy, OpenCV, Linux
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

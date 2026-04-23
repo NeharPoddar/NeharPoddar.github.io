@@ -12,6 +12,9 @@ redirect_from:
 
 As an individual with a zest for diverse interests, I find joy in a myriad of activities during my leisure time.
 
+## Playing in a Band
+Music is one of my great passions. I play in [PBC Band](https://www.pbcband.org/), where I get to collaborate with fellow musicians and perform live. There's something irreplaceable about the energy of playing together and sharing that experience with an audience.
+
 ## Reading Fiction
 Immerse me in a good book, and I'm transported to different worlds, exploring the realms of literature with avid curiosity.
 

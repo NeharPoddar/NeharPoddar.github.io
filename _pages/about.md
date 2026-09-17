@@ -29,7 +29,7 @@ Before my PhD I was a research engineer at [DEKA](https://www.dekaresearch.com/)
 <div class="pub-list">
 
 <div class="pub">
-  <img class="pub-thumb" src="/images/alex-crossing-arms.jpg" alt="Alex humanoid robot">
+  <img class="pub-thumb" src="/images/alex-crossing-arms.jpg" alt="Alex humanoid robot" style="object-position: 50% 5%;">
   <div class="pub-body">
     <div class="pub-title">Bounce Back: Perception-Guided, Environment-Assisted Humanoid Skill Resumption</div>
     <div class="pub-venue"><span class="tag">Work in progress</span>submitted to IEEE Robotics and Automation Letters (RA-L), 2027</div>
@@ -54,7 +54,7 @@ Before my PhD I was a research engineer at [DEKA](https://www.dekaresearch.com/)
     <div class="pub-title">Embedding Classical Balance Control Principles in Reinforcement Learning for Humanoid Recovery</div>
     <div class="pub-venue"><span class="tag">Submitted</span>IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2026 · <a href="https://arxiv.org/abs/2603.08619">arXiv</a></div>
     <div class="pub-authors">N. Poddar et al.</div>
-    <p class="pub-desc">A single RL policy embeds capture point, CoM state, and centroidal momentum as privileged critic inputs and physics-guided rewards, spanning ankle/hip/stepping disturbance rejection through multi-contact stand-up. 93.4% in-distribution recovery across 10,000 trials on the Unitree H1-2, validated via MuJoCo sim-to-sim testing and zero-shot hardware deployment.</p>
+    <p class="pub-desc">A single RL policy embeds capture point, CoM state, and centroidal momentum as privileged critic inputs and physics-guided rewards, spanning ankle/hip/stepping disturbance rejection through multi-contact stand-up. <strong>93.4%</strong> in-distribution recovery across <strong>10,000 trials</strong> on the Unitree H1-2, validated via MuJoCo sim-to-sim testing and zero-shot hardware deployment.</p>
     <video controls preload="none">
       <source src="/files/iros2026-video.mp4" type="video/mp4">
     </video>
@@ -88,13 +88,16 @@ Before my PhD I was a research engineer at [DEKA](https://www.dekaresearch.com/)
 ## Experience
 
 <div class="entry">
-  <img class="entry-thumb" src="/images/alex-crane-kick.jpg" alt="Alex, IHMC humanoid robot">
+  <img class="entry-thumb" src="/images/alex-crane-kick.jpg" alt="Alex, IHMC humanoid robot" style="object-position: 50% 8%;">
   <div class="entry-body">
-    <div class="entry-title">PhD Researcher, IHMC / University of West Florida</div>
+    <div class="entry-title">PhD Researcher</div>
+    <div class="entry-org">IHMC / University of West Florida</div>
     <div class="entry-meta"><span class="mono">Jan 2024 – present</span> · Advisor: Prof. Robert Griffin</div>
     <ul>
-      <li>Leading <em>Bounce Back</em>, a perception-guided mixture-of-experts policy that composes walking, get-up, and environment-assisted bracing into one unified controller.</li>
-      <li>Built a physics-informed asymmetric actor–critic embedding capture point, CoM, and centroidal momentum as privileged signals. Achieved 93.4% recovery success across 10,000 trials on the Unitree H1-2, validated in MuJoCo sim-to-sim and zero-shot on hardware.</li>
+      <li>Leading <em>Bounce Back</em>: warm-started trainable experts from independently trained walking, get-up, and bracing specialists, combined via a learned softmax gate and residual correction into one perception-conditioned policy, trained with PPO and advantage-weighted imitation.</li>
+      <li>Built a physics-informed asymmetric actor–critic embedding capture point, CoM, and centroidal momentum as privileged signals, with a success-gated curriculum spanning standing through multi-contact stand-up.</li>
+      <li>Achieved <strong>93.4%</strong> recovery success across <strong>10,000 trials</strong> on the Unitree H1-2; validated via MuJoCo sim-to-sim testing and zero-shot deployment on hardware at 50&nbsp;Hz.</li>
+      <li>Ran controlled ablations isolating the privileged critic, physics-informed rewards, and curriculum, each shown to be necessary for full recovery performance.</li>
     </ul>
   </div>
 </div>
@@ -102,31 +105,43 @@ Before my PhD I was a research engineer at [DEKA](https://www.dekaresearch.com/)
 <div class="entry">
   <img class="entry-thumb" src="/images/roxo.jpeg" alt="FedEx ROXO delivery robot">
   <div class="entry-body">
-    <div class="entry-title">Research Engineer, DEKA Research and Development Corp.</div>
+    <div class="entry-title">Research Engineer</div>
+    <div class="entry-org">DEKA Research and Development Corp.</div>
     <div class="entry-meta"><span class="mono">Jan 2021 – Jan 2024</span></div>
     <ul>
-      <li>Built multi-modal perception (lidar, radar, stereo/mono cameras) for FedEx's autonomous delivery robot, ROXO.</li>
-      <li>RGB-D segmentation, depth completion, and active-learning pipelines; RANSAC/PnP/ICP calibration cutting setup time from 60 to 3 minutes.</li>
-      <li>Also worked on insulin pump control (RL for adaptive delivery), infusion-pump flow estimation, and vision-based organ-transport monitoring.</li>
+      <li>Built multi-modal perception (lidar, radar, stereo/mono cameras) for FedEx's autonomous delivery robot, ROXO, fusing sensors into unified 3D occupancy and drivability representations.</li>
+      <li>Deployed RGB-D semantic segmentation (<strong>84% accuracy</strong>) and self-attention-based scene-text recognition (<strong>94% accuracy</strong>) on the production platform.</li>
+      <li>RANSAC/PnP/ICP sensor calibration in ROS/C++, cutting setup time from <strong>60 to 3 minutes</strong>.</li>
+      <li>Also worked on insulin pump control (RL for adaptive delivery under partial observability), infusion-pump flow estimation, and vision-based organ-transport monitoring.</li>
     </ul>
   </div>
 </div>
 
 <div class="entry">
   <div class="entry-body">
-    <div class="entry-title">ML Research Assistant, Nano-Medicine Center, Northeastern University</div>
+    <div class="entry-title">ML Research Assistant</div>
+    <div class="entry-org">Nano-Medicine Center, Northeastern University</div>
     <div class="entry-meta"><span class="mono">Jan 2020 – May 2020</span></div>
     <ul>
-      <li>SVM classification on whole-brain MRI for Alzheimer's diagnosis (83% cross-validated accuracy); 3D U-Net segmentation for gray-matter regions.</li>
+      <li>SVM classification on whole-brain MRI for Alzheimer's diagnosis (<strong>83% cross-validated accuracy</strong>); 3D U-Net segmentation for gray-matter regions.</li>
     </ul>
   </div>
 </div>
 
 ## Education
 
-<div class="entry"><div class="entry-body"><div class="entry-title">PhD in Robotics</div><div class="entry-meta">IHMC &amp; University of West Florida <span class="mono">· 2024–present</span></div></div></div>
-<div class="entry"><div class="entry-body"><div class="entry-title">MSc, Applied Mathematics</div><div class="entry-meta">Northeastern University <span class="mono">· 2019–2021</span></div></div></div>
-<div class="entry"><div class="entry-body"><div class="entry-title">BSc, Mechanical Engineering</div><div class="entry-meta">NMIMS, Mumbai <span class="mono">· 2015–2019</span></div></div></div>
+<div class="edu-row">
+  <div><span class="edu-degree">PhD in Robotics</span><span class="edu-school">IHMC &amp; University of West Florida</span></div>
+  <div class="edu-date mono">2024 – present</div>
+</div>
+<div class="edu-row">
+  <div><span class="edu-degree">MSc, Applied Mathematics</span><span class="edu-school">Northeastern University</span></div>
+  <div class="edu-date mono">2019 – 2021</div>
+</div>
+<div class="edu-row">
+  <div><span class="edu-degree">BSc, Mechanical Engineering</span><span class="edu-school">NMIMS, Mumbai</span></div>
+  <div class="edu-date mono">2015 – 2019</div>
+</div>
 
 ## Skills
 

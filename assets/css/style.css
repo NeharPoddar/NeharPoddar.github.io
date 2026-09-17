@@ -10,8 +10,6 @@
   --line: #e6e6e6;
   --accent: #1957c2;
   --accent-soft: #eef3fc;
-  --accent2: #c4590a;
-  --accent2-soft: #fbf0e6;
   --mono: "SF Mono", "JetBrains Mono", "IBM Plex Mono", Menlo, Consolas, monospace;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --display: "Space Grotesk", var(--sans);
@@ -74,7 +72,7 @@ h2::after {
   width: 40px;
   height: 3px;
   border-radius: 2px;
-  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  background: var(--accent);
   margin: 10px auto 0;
 }
 
@@ -120,7 +118,7 @@ a {
 
 a:hover { background-size: 100% 1.5px; }
 
-strong { color: var(--accent2); font-weight: 700; }
+strong { color: var(--text); font-weight: 700; }
 
 .muted { color: var(--muted); }
 

@@ -20,43 +20,17 @@ redirect_from:
   <a href="mailto:poddar.nehar@gmail.com">Email</a><span class="sep">·</span><a href="https://linkedin.com/in/neharpoddar">LinkedIn</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=sEJbLWwAAAAJ&hl=en">Google Scholar</a><span class="sep">·</span><a href="https://github.com/NeharPoddar">GitHub</a><span class="sep">·</span><a href="https://robots.ihmc.us/">Lab</a><span class="sep">·</span><a href="/files/NeharPoddar_CV.pdf">CV (PDF)</a>
 </p>
 
-I am a PhD researcher at the <strong><a href="https://robots.ihmc.us/">Institute for Human &amp; Machine Cognition (IHMC)</a></strong> and the <strong>University of West Florida</strong>, working at the intersection of <strong>reinforcement learning, classical control, and perception</strong>.
+I am a PhD researcher at the <strong><a href="https://robots.ihmc.us/">Institute for Human &amp; Machine Cognition (IHMC)</a></strong> and the <strong>University of West Florida</strong>, working at the intersection of reinforcement learning, classical control, and perception. My research explores how humanoid robots can maintain balance, recover from failure, exploit useful contacts in their environment, and return to purposeful behavior.
 
-My research explores how humanoid robots can <strong>maintain balance, recover from failure, exploit useful contacts in their environment, and return to purposeful behavior</strong>.
-
-I combine physically meaningful representations of balance and contact with reinforcement learning and perception, with the goal of building robots that can <strong>reason about their own bodies and interact intelligently with the physical world</strong>.
-
-Before my PhD, I was a Research Engineer at <strong><a href="https://www.dekaresearch.com/">DEKA Research &amp; Development</a></strong>, where I developed perception and calibration systems for FedEx's autonomous delivery robot, ROXO.
+I combine physically meaningful representations of balance and contact with reinforcement learning and perception to build robots that reason about their own bodies and interact intelligently with the physical world. Before my PhD, I was a Research Engineer at <strong><a href="https://www.dekaresearch.com/">DEKA Research &amp; Development</a></strong>, building perception and calibration systems for FedEx's autonomous delivery robot, ROXO.
 
 ## Research
 
-<p class="lead">Building humanoids that can recover and adapt</p>
+Humanoid robots operate where unexpected events are unavoidable: disturbances, falls, and unplanned contact are the norm, not the exception. My work asks how a robot can use learning, physical structure, and its environment to stay capable when things go wrong, across three areas:
 
-Humanoid robots operate in physical environments where unexpected events are unavoidable: a disturbance can push the robot outside its support region, a fall can change its configuration, and nearby objects may become useful sources of support.
-
-My research asks:
-
-<blockquote>How can a humanoid use learning, physical reasoning, and its environment to remain capable when things go wrong?</blockquote>
-
-I approach this through three connected areas.
-
-### Physics-embedded reinforcement learning
-
-I incorporate physically meaningful representations, including center of mass, capture point, centroidal momentum, and contact stability, into reinforcement learning through reward design and privileged critic information.
-
-Rather than learning balance entirely from raw observations, the policy is trained with structure that reflects the underlying physics of humanoid motion.
-
-### Environment-assisted recovery
-
-I develop perception-guided policies that let humanoids recognize and exploit nearby walls, tables, and other surfaces when recovering from a loss of balance.
-
-The robot learns when and how to establish temporary contacts, coordinate its whole body around those contacts, and transition back to stable, free-standing locomotion.
-
-### Composable whole-body behavior
-
-I combine specialized learned behaviors into systems that operate continuously rather than relying on hand-designed mode switches.
-
-The broader goal is a humanoid that can walk, lose balance, recover, interact with its surroundings, and resume its task as one coherent system.
+- <strong>Physics-embedded RL:</strong> capture point, centroidal momentum, and contact stability shape rewards and critic inputs, not just raw observations.
+- <strong>Environment-assisted recovery:</strong> perception-guided policies that brace against walls and tables when balance alone isn't enough.
+- <strong>Composable behavior:</strong> specialized skills combined into one system that walks, recovers, and resumes its task, without hand-designed mode switches.
 
 ## Selected Publications
 

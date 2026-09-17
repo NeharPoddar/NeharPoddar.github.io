@@ -12,7 +12,7 @@ redirect_from:
   <img class="headshot" src="/images/headshot.jpg" alt="Nehar Poddar">
   <div class="name-block">
     <h1>Nehar Poddar</h1>
-    <p class="tagline">PhD researcher, humanoid robotics &amp; reinforcement learning</p>
+    <p class="tagline">I teach robots to hold their balance, move with purpose, and actually be useful 🤖</p>
   </div>
 </div>
 
@@ -29,7 +29,7 @@ Before my PhD I was a research engineer at [DEKA](https://www.dekaresearch.com/)
 <div class="pub-list">
 
 <div class="pub">
-  <img class="pub-thumb" src="/images/alex-crossing-arms.jpg" alt="Alex humanoid robot" style="object-position: 50% 5%;">
+  <img class="pub-thumb" src="/images/alex-crossing-arms.jpg" alt="Alex humanoid robot" style="object-position: 50% 18%;">
   <div class="pub-body">
     <div class="pub-title">Bounce Back: Perception-Guided, Environment-Assisted Humanoid Skill Resumption</div>
     <div class="pub-venue"><span class="tag">Work in progress</span>submitted to IEEE Robotics and Automation Letters (RA-L), 2027</div>
@@ -39,7 +39,7 @@ Before my PhD I was a research engineer at [DEKA](https://www.dekaresearch.com/)
 </div>
 
 <div class="pub">
-  <div class="pub-thumb-spacer"></div>
+  <img class="pub-thumb" src="/images/unitree-g1.jpg" alt="Unitree G1 humanoid robot" style="object-position: 50% 20%;">
   <div class="pub-body">
     <div class="pub-title">HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers</div>
     <div class="pub-venue"><span class="tag">Under review</span>CoRL 2026 submission</div>
@@ -49,7 +49,7 @@ Before my PhD I was a research engineer at [DEKA](https://www.dekaresearch.com/)
 </div>
 
 <div class="pub">
-  <img class="pub-thumb" src="/images/h1-2-clean.png" alt="Unitree H1-2 humanoid robot">
+  <img class="pub-thumb" src="/images/h1-2-full.webp" alt="Unitree H1-2 humanoid robot" style="object-position: 50% 10%;">
   <div class="pub-body">
     <div class="pub-title">Embedding Classical Balance Control Principles in Reinforcement Learning for Humanoid Recovery</div>
     <div class="pub-venue"><span class="tag">Submitted</span>IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2026 · <a href="https://arxiv.org/abs/2603.08619">arXiv</a></div>
@@ -118,6 +118,7 @@ Before my PhD I was a research engineer at [DEKA](https://www.dekaresearch.com/)
 </div>
 
 <div class="entry">
+  <img class="entry-thumb" src="/images/brain-mri.jpg" alt="Sagittal brain MRI" title="MRI: Oliver Stollmann, CC BY, via Wikimedia Commons">
   <div class="entry-body">
     <div class="entry-title">ML Research Assistant</div>
     <div class="entry-org">Nano-Medicine Center, Northeastern University</div>
@@ -155,7 +156,7 @@ Before my PhD I was a research engineer at [DEKA](https://www.dekaresearch.com/)
 
 <div class="gallery">
   <figure>
-    <img src="/images/alex-crane-kick.jpg" alt="Alex, IHMC humanoid, dynamic pose">
+    <img src="/images/alex-crossing-arms.jpg" alt="Alex, IHMC humanoid, dynamic pose" style="object-position: 50% 12%;">
     <figcaption>Alex, IHMC</figcaption>
   </figure>
   <figure>
@@ -171,8 +172,6 @@ Before my PhD I was a research engineer at [DEKA](https://www.dekaresearch.com/)
     <figcaption>FedEx ROXO, DEKA</figcaption>
   </figure>
 </div>
-
-<img src="/images/alex-poses.gif" alt="Alex recovery poses" style="max-width:260px;border-radius:8px;border:1px solid var(--line);margin-top:14px;">
 
 ## Outside the lab
 

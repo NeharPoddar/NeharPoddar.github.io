@@ -40,7 +40,7 @@ Humanoid robots operate where unexpected events are unavoidable: disturbances, f
   <img class="pub-thumb" src="/images/alex-crossing-arms.jpg" alt="Alex humanoid robot" style="object-position: 50% 18%;">
   <div class="pub-body">
     <div class="pub-title">Bounce Back: Perception-Guided, Environment-Assisted Humanoid Skill Resumption</div>
-    <div class="pub-venue"><span class="tag">Work in progress</span>submitted to IEEE Robotics and Automation Letters (RA-L), 2027</div>
+    <div class="pub-venue"><span class="tag">Work in progress</span>in preparation, target: IEEE Robotics and Automation Letters (RA-L), 2027</div>
     <div class="pub-authors">N. Poddar et al.</div>
     <p class="pub-desc">A perception-guided framework for humanoid recovery that combines walking, get-up, and environment-assisted bracing. Specialized behaviors are warm-started into trainable experts and recombined through a learned policy conditioned on a robot-centric 3D occupancy representation, allowing the robot to detect and transiently brace against nearby surfaces during recovery.</p>
   </div>
@@ -107,6 +107,8 @@ Humanoid robots operate where unexpected events are unavoidable: disturbances, f
       <li>Developed perception-guided recovery using walking, get-up, and environment-assisted bracing behaviors conditioned on 3D environmental representations.</li>
       <li>Achieved <strong>93.4%</strong> recovery success across <strong>10,000 H1-2 trials</strong>, followed by MuJoCo sim-to-sim validation and zero-shot hardware deployment at 50&nbsp;Hz.</li>
       <li>Designed controlled ablations to evaluate the contribution of privileged physical information, physics-informed rewards, and curriculum learning.</li>
+      <li>Built custom TensorBoard diagnostics that trace per-layer weight and gradient behavior, tracing intermittent training instability to unbounded growth in a perception network's weights.</li>
+      <li>Diagnosed GPU- and simulation-level training failures (CUDA graph capture, driver-level watchdog timeouts) in a large-scale parallel Isaac Lab / Newton-MuJoCo simulation pipeline, and tuned multi-contact collision solver parameters for realistic humanoid contact.</li>
       <li>Working across reinforcement learning, classical control, whole-body control, perception, contact dynamics, and robot simulation.</li>
     </ul>
   </div>
@@ -162,7 +164,7 @@ Humanoid robots operate where unexpected events are unavoidable: disturbances, f
 <div class="skills-row"><span class="label">Robotics &amp; Control</span><span>Humanoid locomotion, whole-body control, balance control, multi-contact interaction, contact dynamics, capture-point dynamics, centroidal dynamics, model-based control, sim-to-real</span></div>
 <div class="skills-row"><span class="label">Machine Learning</span><span>Reinforcement learning, PPO, actor–critic methods, physics-informed learning, curriculum learning, deep learning, PyTorch</span></div>
 <div class="skills-row"><span class="label">Perception</span><span>3D occupancy mapping, sensor fusion, semantic segmentation, LiDAR, radar, stereo vision, RGB-D perception</span></div>
-<div class="skills-row"><span class="label">Simulation &amp; Systems</span><span>Isaac Lab, Isaac Sim, MuJoCo, ROS/ROS2, CUDA, Linux</span></div>
+<div class="skills-row"><span class="label">Simulation &amp; Systems</span><span>Isaac Lab, Isaac Sim, MuJoCo, Newton, CUDA graph capture, contact solver tuning, ROS/ROS2, CUDA, Linux</span></div>
 <div class="skills-row"><span class="label">Programming</span><span>Python, C++, MATLAB, Java</span></div>
 
 ## Robotic Platforms
